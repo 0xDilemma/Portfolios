@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\iSpan\\Documents\\Dilemma\\WF_DilemmaProject\\WFA_SketchVer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44BC56F2-EBBF-472B-B96B-A13862F121D6}|WFA_SketchVer\\WFA_SketchVer.csproj|C:\\Users\\iSpan\\Documents\\Dilemma\\WF_DilemmaProject\\WFA_SketchVer\\wfa_sketchver\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44BC56F2-EBBF-472B-B96B-A13862F121D6}|WFA_SketchVer\\WFA_SketchVer.csproj|solutionrelative:wfa_sketchver\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BC56F2-EBBF-472B-B96B-A13862F121D6}|WFA_SketchVer\\WFA_SketchVer.csproj|c:\\users\\ispan\\documents\\dilemma\\wf_dilemmaproject\\wfa_sketchver\\wfa_sketchver\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44BC56F2-EBBF-472B-B96B-A13862F121D6}|WFA_SketchVer\\WFA_SketchVer.csproj|solutionrelative:wfa_sketchver\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BC56F2-EBBF-472B-B96B-A13862F121D6}|WFA_SketchVer\\WFA_SketchVer.csproj|C:\\Users\\iSpan\\Documents\\Dilemma\\WF_DilemmaProject\\WFA_SketchVer\\wfa_sketchver\\form_cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44BC56F2-EBBF-472B-B96B-A13862F121D6}|WFA_SketchVer\\WFA_SketchVer.csproj|solutionrelative:wfa_sketchver\\form_cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BC56F2-EBBF-472B-B96B-A13862F121D6}|WFA_SketchVer\\WFA_SketchVer.csproj|C:\\Users\\iSpan\\Documents\\Dilemma\\WF_DilemmaProject\\WFA_SketchVer\\wfa_sketchver\\form_cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{44BC56F2-EBBF-472B-B96B-A13862F121D6}|WFA_SketchVer\\WFA_SketchVer.csproj|solutionrelative:wfa_sketchver\\form_cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44BC56F2-EBBF-472B-B96B-A13862F121D6}|WFA_SketchVer\\WFA_SketchVer.csproj|C:\\Users\\iSpan\\Documents\\Dilemma\\WF_DilemmaProject\\WFA_SketchVer\\wfa_sketchver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44BC56F2-EBBF-472B-B96B-A13862F121D6}|WFA_SketchVer\\WFA_SketchVer.csproj|solutionrelative:wfa_sketchver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form_Cart.cs",
+              "DocumentMoniker": "C:\\Users\\iSpan\\Documents\\Dilemma\\WF_DilemmaProject\\WFA_SketchVer\\WFA_SketchVer\\Form_Cart.cs",
+              "RelativeDocumentMoniker": "WFA_SketchVer\\Form_Cart.cs",
+              "ToolTip": "C:\\Users\\iSpan\\Documents\\Dilemma\\WF_DilemmaProject\\WFA_SketchVer\\WFA_SketchVer\\Form_Cart.cs",
+              "RelativeToolTip": "WFA_SketchVer\\Form_Cart.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwDcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:48:28.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form_Cart.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\iSpan\\Documents\\Dilemma\\WF_DilemmaProject\\WFA_SketchVer\\WFA_SketchVer\\Form_Cart.cs",
+              "RelativeDocumentMoniker": "WFA_SketchVer\\Form_Cart.cs",
+              "ToolTip": "C:\\Users\\iSpan\\Downloads\\WF_DilemmaProject\\WFA_SketchVer\\WFA_SketchVer\\Form_Cart.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\WF_DilemmaProject\\WFA_SketchVer\\WFA_SketchVer\\Form_Cart.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T02:48:26.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserControl1.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\iSpan\\Documents\\Dilemma\\WF_DilemmaProject\\WFA_SketchVer\\WFA_SketchVer\\UserControl1.cs",
+              "RelativeDocumentMoniker": "WFA_SketchVer\\UserControl1.cs",
+              "ToolTip": "C:\\Users\\iSpan\\Documents\\Dilemma\\WF_DilemmaProject\\WFA_SketchVer\\WFA_SketchVer\\UserControl1.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "WFA_SketchVer\\UserControl1.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T12:11:09.99Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\iSpan\\Documents\\Dilemma\\WF_DilemmaProject\\WFA_SketchVer\\WFA_SketchVer\\Form1.cs",
+              "RelativeDocumentMoniker": "WFA_SketchVer\\Form1.cs",
+              "ToolTip": "C:\\Users\\iSpan\\Documents\\Dilemma\\WF_DilemmaProject\\WFA_SketchVer\\WFA_SketchVer\\Form1.cs",
+              "RelativeToolTip": "WFA_SketchVer\\Form1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAvwFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T11:46:22.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControl1.cs",
+              "DocumentMoniker": "C:\\Users\\iSpan\\Documents\\Dilemma\\WF_DilemmaProject\\WFA_SketchVer\\WFA_SketchVer\\UserControl1.cs",
+              "RelativeDocumentMoniker": "WFA_SketchVer\\UserControl1.cs",
+              "ToolTip": "C:\\Users\\iSpan\\Documents\\Dilemma\\WF_DilemmaProject\\WFA_SketchVer\\WFA_SketchVer\\UserControl1.cs",
+              "RelativeToolTip": "WFA_SketchVer\\UserControl1.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwFkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T00:52:44.804Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

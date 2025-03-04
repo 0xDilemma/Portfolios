@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44BC56F2-EBBF-472B-B96B-A13862F121D6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WFA_SketchVerB</RootNamespace>
+    <AssemblyName>WFA_SketchVerB</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cl_IamgeHelper.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ForgetPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ForgetPwd.Designer.cs">
+      <DependentUpon>Form_ForgetPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_TakeOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_TakeOrder.Designer.cs">
+      <DependentUpon>Form_TakeOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Login.Designer.cs">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Main.Designer.cs">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_ManageUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_ManageUserInfo.Designer.cs">
+      <DependentUpon>Form_ManageUserInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_NewGoods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_NewGoods.Designer.cs">
+      <DependentUpon>Form_NewGoods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_PersonalInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_PersonalInfo.Designer.cs">
+      <DependentUpon>Form_PersonalInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalVar.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="UCIcon_RoundBtn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UCIcon_RoundBtn.Designer.cs">
+      <DependentUpon>UCIcon_RoundBtn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Cart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Cart.Designer.cs">
+      <DependentUpon>UC_Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_CartRowFrame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_CartRowFrame.Designer.cs">
+      <DependentUpon>UC_CartRowFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_DownUserMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_DownUserMenu.Designer.cs">
+      <DependentUpon>UC_DownUserMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_DropDownMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_DropDownMenu.Designer.cs">
+      <DependentUpon>UC_DropDownMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_GoodsDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_GoodsDetail.Designer.cs">
+      <DependentUpon>UC_GoodsDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_HomePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_HomePage.Designer.cs">
+      <DependentUpon>UC_HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_KindsFrame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_KindsFrame.Designer.cs">
+      <DependentUpon>UC_KindsFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_OrderDetailTake.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_OrderDetailTake.Designer.cs">
+      <DependentUpon>UC_OrderDetailTake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_OrderRowFrame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_OrderRowFrame.Designer.cs">
+      <DependentUpon>UC_OrderRowFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_RoundedTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_RoundedTextBox.Designer.cs">
+      <DependentUpon>UC_RoundedTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_SingUp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_SingUp.Designer.cs">
+      <DependentUpon>UC_SingUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_GoodsFrame.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_GoodsFrame.Designer.cs">
+      <DependentUpon>UserControl_GoodsFrame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_ItemsShow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_ItemsShow.Designer.cs">
+      <DependentUpon>UserControl_ItemsShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_SideMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl_SideMenu.Designer.cs">
+      <DependentUpon>UserControl_SideMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_TopPnl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_TopPnl.Designer.cs">
+      <DependentUpon>User_TopPnl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ForgetPwd.resx">
+      <DependentUpon>Form_ForgetPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_TakeOrder.resx">
+      <DependentUpon>Form_TakeOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Login.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Main.resx">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_ManageUserInfo.resx">
+      <DependentUpon>Form_ManageUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_NewGoods.resx">
+      <DependentUpon>Form_NewGoods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_PersonalInfo.resx">
+      <DependentUpon>Form_PersonalInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Cart.resx">
+      <DependentUpon>UC_Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_CartRowFrame.resx">
+      <DependentUpon>UC_CartRowFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_DownUserMenu.resx">
+      <DependentUpon>UC_DownUserMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_DropDownMenu.resx">
+      <DependentUpon>UC_DropDownMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_GoodsDetail.resx">
+      <DependentUpon>UC_GoodsDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_HomePage.resx">
+      <DependentUpon>UC_HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_OrderDetailTake.resx">
+      <DependentUpon>UC_OrderDetailTake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_OrderRowFrame.resx">
+      <DependentUpon>UC_OrderRowFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_RoundedTextBox.resx">
+      <DependentUpon>UC_RoundedTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_SingUp.resx">
+      <DependentUpon>UC_SingUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_GoodsFrame.resx">
+      <DependentUpon>UserControl_GoodsFrame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_ItemsShow.resx">
+      <DependentUpon>UserControl_ItemsShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl_SideMenu.resx">
+      <DependentUpon>UserControl_SideMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_TopPnl.resx">
+      <DependentUpon>User_TopPnl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pet%27sMallLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ManageMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Images\Thumbnails\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gtrash.png" />
+    <Content Include="Resources\Images\Products\CHARM狗飼料%28幼犬配方%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Products\CHARM狗飼料%28海陸盛宴%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Products\CHARM貓副食罐%28鮪魚蟹味棒%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Products\CHARM貓飼料%28幼貓配方%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Products\DoggyMan消臭餅乾%28起司%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Products\DoggyMan犬用野菜棒%28南瓜%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Products\極光狗飼料%28羊肉%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Products\極光狗飼料%28雞肉鴨肉%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Products\極光貓飼料%28雞肉%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Products\極光貓飼料%28雞肉鮭魚%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Products\貪貪高蛋白貓肉泥%28原野鮮雞%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Products\貪貪高蛋白貓肉泥%28極鮮虱目魚%29.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\WFA_wideLightPetBackground1.png" />
+    <None Include="Resources\WFA_wideLightPetBackground.png" />
+    <None Include="Resources\WFA_LightPetBackground.png" />
+    <None Include="Resources\WFA_PetBackground.png" />
+    <None Include="Resources\WF_catfprint.png" />
+    <None Include="Resources\購物車icon1.png" />
+    <None Include="Resources\購物車icon.png" />
+    <None Include="Resources\smallcart.png" />
+    <None Include="Resources\tinycart.png" />
+    <None Include="Resources\tinyminus.png" />
+    <None Include="Resources\tinyplus.png" />
+    <None Include="Resources\trash.png" />
+    <Content Include="Resources\user.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
