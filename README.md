@@ -1,0 +1,47 @@
+# MatchPro 接案平台
+
+讓使用者可以在此平台上找到對應的專業人才，來完成專案或項目，
+除了刊登案件、找尋人才，也可以針對有興趣的項目進行接案，賺取額外收入！
+
+## 🔧 技術棧
+- C# (.NET 8.0)
+- MVC
+- MSSQL
+- Entity Framework
+- ADO.NET
+- LINQ
+
+## 📸 網站畫面
+### 首頁
+![image](https://github.com/user-attachments/assets/ca8c4273-9dfd-46a6-bacf-27c3e22fbf18)
+### 登入介面
+![image](https://github.com/user-attachments/assets/9363f8d2-0c38-4d77-b92b-9d216894a1f2)
+### 個人頁面
+![image](https://github.com/user-attachments/assets/465ac4c1-356d-4558-a885-403d3cc5379d)
+### 找接案者 / 各種案件
+![image](https://github.com/user-attachments/assets/1eb69623-6ce6-4d8d-ae5a-aad4a26383c0)
+![image](https://github.com/user-attachments/assets/6887164f-e542-4a95-8f4d-3b8a8fe5abf3)
+### 聊天室
+![image](https://github.com/user-attachments/assets/31250b2f-31c8-434f-9860-d09d150f2bfe)
+
+
+
+
+
+
+## 🛠️ 啟動方式
+1. 克隆專案：
+git clone https://github.com/0xdilemma/TeamPrj_MatchPro.git
+
+2. 開啟 .sln 檔於 Visual Studio。
+
+3. 使用『測試用資料表.sql』建立 GameCase 資料庫。
+   
+4. 於 Visual Studio 中對 BackMange 專案右鍵使用 EF Core Power Tools 進行反向工程(選擇 EF Core 8 版本)，
+   勾選所有資料表並確定，之後不要勾選『在產生的程式碼中包含連線字串』之選項再按下確定。
+   
+5. 於 Visual Studio 的『工具』選項 >> NuGet 套件管理員 >> 套件管理器主控台，
+   輸入：add-migration addIdentityTables -c ApplicationDbContext ，執行。
+   再輸入：update-database -Context ApplicationDbContext，執行。
+
+6. 按下 F5 ，執行程式，便可開始瀏覽 Match接案平台。
