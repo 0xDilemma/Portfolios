@@ -1,4 +1,4 @@
-create database GameCase;
+--create database GameCase; -- 先創建此資料庫
 USE GameCase;
 
 ---用戶類型表：儲存所有可能的用戶類型（工作者/發布者）
