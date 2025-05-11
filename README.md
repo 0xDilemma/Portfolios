@@ -45,3 +45,26 @@ git clone https://github.com/0xdilemma/TeamPrj_MatchPro.git
    再輸入：update-database -Context ApplicationDbContext，執行。
 
 6. 按下 F5 ，執行程式，便可開始瀏覽 Match接案平台。
+
+## 🗂️ 專案結構說明
+
+```
+BackMange/
+├── Areas/                 # 模組區域（如 Admin, User 等）
+├── Controllers/           # 控制器（MVC）
+├── Data/                  # 資料存取層（DbContext 等）
+├── DTO/                   # Data Transfer Objects
+├── Hubs/                  # SignalR 或即時功能
+├── Migrations/            # 資料庫遷移（EF Code First）
+├── Models/                # 資料模型
+├── Partials/              # 可重複使用的 View 部分
+├── ViewModels/            # MVVM 的橋接物件
+├── Views/                 # Razor View 檢視畫面
+├── wwwroot/               # 靜態資源（JS, CSS, 圖片）
+├── appsettings.json       # 專案設定檔
+├── efpt.config.json       # EF Power Tools 設定檔
+└── Program.cs             # 專案進入點
+```
+
+## 📄 License
+### 此專案為個人作品展示用，未商業使用！！！
