@@ -3,13 +3,20 @@
 讓使用者可以在此平台上找到對應的專業人才，來完成專案或項目，
 除了刊登案件、找尋人才，也可以針對有興趣的項目進行接案，賺取額外收入！
 
-## 🔧 技術棧
+## 🔧 技術
 - C# (.NET 8.0)
 - MVC
 - MSSQL
 - Entity Framework
 - ADO.NET
 - LINQ
+
+## 💡 功能特色
+使用者登入註冊，包含googel登入
+
+案件發布與審核
+
+排行榜每日更新（使用排程器）
 
 ## 📸 網站畫面
 ### 首頁
@@ -23,8 +30,11 @@
 ![image](https://github.com/user-attachments/assets/6887164f-e542-4a95-8f4d-3b8a8fe5abf3)
 ### 聊天室
 ![image](https://github.com/user-attachments/assets/31250b2f-31c8-434f-9860-d09d150f2bfe)
-
-
+### 後台管理系統
+![image](https://github.com/user-attachments/assets/edc3620e-14af-4dab-a442-58b2955b637d)
+![image](https://github.com/user-attachments/assets/e0a71600-2d11-4be9-ae2e-5bcdb1bc9a91)
+![image](https://github.com/user-attachments/assets/6a7b7a96-55b4-4f46-99bf-dafeb76e7486)
+![image](https://github.com/user-attachments/assets/ed068c81-c439-4692-92ea-399a653793a4)
 
 
 
@@ -45,6 +55,11 @@ git clone https://github.com/0xdilemma/TeamPrj_MatchPro.git
    再輸入：update-database -Context ApplicationDbContext，執行。
 
 6. 按下 F5 ，執行程式，便可開始瀏覽 Match接案平台。
+   
+8. 若要使用 tUsers 資料表既有的用戶進行登入，密碼皆為 Aa123123。
+   
+10. 平台後臺管理頁面進入方式，請於平台首頁之網址後方加上 /home 便可進入後台管理系統，
+    帳號：admin@example.com 密碼：Admin@12345
 
 ## 🗂️ 專案結構說明
 
